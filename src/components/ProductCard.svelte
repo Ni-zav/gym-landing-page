@@ -36,7 +36,7 @@
         class={"flex flex-col dropShadow overflow-hidden rounded-b-lg "}
     >
         <div
-            class="rounded-t-xl h-8 sm:h-10 bg-white opacity-60 px-3 flex items-center gap-2"
+            class="rounded-t-xl h-8 sm:h-10 bg-indigo-800 opacity-60 px-3 flex items-center gap-2"
         >
             {#each [1, 2, 3] as i}
                 <div
