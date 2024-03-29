@@ -1,4 +1,5 @@
 <script>
+    import { openModal } from "../store";
 
 </script>
 
@@ -12,7 +13,7 @@
             </span>
         </h1>
         </a>
-        <button class="md:hidden grid place-items-center">
+        <button on:click={() => $openModal = true} class="md:hidden grid place-items-center">
             <i class="fa-solid fa-bars"></i>
         </button>
         <nav class="hidden md:flex items-center gap-4 lg:gap-6">
